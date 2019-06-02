@@ -1,2 +1,2 @@
-# genomec
-A bioinformatics tool for the analysis of genes, viruses, phages, microbes, bacteria e.t.c across regions of interest.
+# Genomec
+A bioinformatics tool for the analysis of genes, viruses, phages, microbes, bacteria e.t.c across regions of interest in human disease samples.
