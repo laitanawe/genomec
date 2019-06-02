@@ -4,7 +4,7 @@ import errno
 sample_type = "Typhi/Paratyphi"
 genome_type = "Phages" ##Specify Genome of Interest (Genes, Viruses, Phages, Microbes, Bacteria... )
 filetype = ".bedgraph"
-path = "beds/*"+filetype
+path = "bedgraphs/*"+filetype
 bin_threshold = 3
 sig_threshold = 50
 files = glob.glob(path)
