@@ -2,7 +2,7 @@
 ## <i>A Novel Bioinformatics Tool for Analyzing Genomic Features in NGS Data</i>
 ## Abstract
 
-Given some NGS data of some specific human disease, if you were to decide on which genes or genomic features should be investigated in this particular human disease, how would you choose? In order to answer this question, we have developed a novel bioinformatics tool for the analysis of genomic features in human disease samples.
+Given some NGS datasets from a specific human disease, if you were to decide on which genes or genomic features should be investigated in this particular human disease, how would you choose? In order to answer this question, we have developed a novel bioinformatics tool for the analysis of genomic features in human disease samples.
 Genomec is a bioinformatics tool for the statistical analysis of genomic features (i.e. genes, exons, viruses, phages, microbes, bacteria e.t.c)
  across regions of interest in human disease samples using public datasets by computing the number of blocks (exons) 
 in each targeted region or Browser Extensible Data (BED) line in the sample.
