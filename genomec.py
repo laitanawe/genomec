@@ -46,7 +46,7 @@ for file in files:
 				print("\nGene Count: " + str(objcount))
 				print("Here are the " + str(len(mysig)) + " significant " + genome_type + " and corresponding coverage in this " + sample_type + " sample.")
 				print(mysig) #dictionary
-				print("There are " + str(total_lines) + " BED lines in this sample.")
+				print("There are " + str(total_lines) + " targeted regions of interest in this sample.")
 				print("")
 		except IOError as exc:
 			if exc.errno != errno.EISDIR:
