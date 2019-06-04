@@ -2,9 +2,10 @@
 ## <i>A Novel Bioinformatics Tool for Analyzing Genomic Features in NGS Data</i>
 ## Abstract
 
-Human diseases are abnormal expression of particular genes in the body. In the neuroscience space, external factors like age might increase the risk for a condition or disorder. For example, disorders like: Alzheimer's Disease, Frontotemporal Dementia, Amyotrophic Lateral Sclerosis, LBD and other cognitive declines.
+Human diseases are abnormal expression of particular genes in the body. In the neuroscience space, external factors like age might increase the risk for a condition or disorder. Examples include disorders like: Alzheimer's Disease, Frontotemporal Dementia, Amyotrophic Lateral Sclerosis, LBD and other cognitive declines.
 Given some NGS datasets from a specific human disease, if you were to decide on which genes or genomic features should be investigated in this particular human disease, how would you choose? In order to answer this question, in this study, we have developed a novel bioinformatics tool for the analysis of genomic features in human disease samples.
-Genomec is a bioinformatics tool for the statistical analysis of genomic features (i.e. genes, exons, viruses, phages, microbes, bacteria e.t.c) across regions of interest in human disease samples using public datasets by computing the number of blocks (exons) 
+<br>
+We developed a bioinformatics tool for the statistical analysis of genomic features (i.e. genes, exons, viruses, phages, microbes, bacteria e.t.c) across regions of interest in human disease samples using public datasets by computing the number of blocks (exons) 
 in each targeted region or Browser Extensible Data (BED) line in the sample.
 <br><br>
 For instance if we have more than 100 human samples, and each sample has a summary of its significant genomic features (with corresponding coverage for each feature) like this:
