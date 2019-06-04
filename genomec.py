@@ -2,7 +2,7 @@
 import glob
 import errno
 sample_type = "Typhi/Paratyphi"
-genome_type = "Phages" ##Specify Genome of Interest (Genes, Viruses, Phages, Microbes, Bacteria... )
+genome_type = "genomic features" #"Phages" ##Specify Genome of Interest (Genes, Viruses, Phages, Microbes, Bacteria... )
 filetype = ".bedgraph"
 path = "bedgraphs/*"+filetype
 bin_threshold = 3
