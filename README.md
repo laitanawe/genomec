@@ -13,7 +13,7 @@ For instance if we have more than 100 human samples, and each sample has a summa
 <br><br>
 If the total no. of features is 153 but each sample has different significant features. We want to compare all 100 samples and find out if there are specific features that occur in all 100 samples or most of them, and what is the corresponding coverage for each feature in these samples. We are already printing the above summary for each sample. It's just the sample comparison part that is being worked on at the moment. "Compare significant features in each sampl and print most frequent features and corresponding coverage".
 <br><br>
-Again, we want to compare all samples and find out which of the features are most frequent and print corresponding coverage. The goal is to recommend the most common features to scientists for further investigation or study.
+Our goal is to compare all samples and find out which of the high-coverage genomic features are most frequent. We will then recommend the most common genomic features to investigators for further study.
 
 
 
