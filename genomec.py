@@ -56,11 +56,14 @@ for file in files:
 			if exc.errno != errno.EISDIR:
 				raise
 print("\nSUMMARY STATISTICAL ANALYSIS")
-print("Feature ", "\tFrequency ")
+print("SN", "\tFeature ", "\tFrequency ")
+print('-'*50)#just a line to distinguish between all the outputs
 #sort frequent significant features below:
 d = sorted(myfreqsig, key = myfreqsig.get, reverse=True)
+sigcount = 0
 for id in d:
+	sigcount += 1
 	text = myfreqsig[id]
-	print(id + "\t" + str(text))
+	print(str(sigcount) + "\t"+ id + "\t" + str(text))
 print("")
 

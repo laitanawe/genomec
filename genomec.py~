@@ -55,12 +55,15 @@ for file in files:
 		except IOError as exc:
 			if exc.errno != errno.EISDIR:
 				raise
-print("\nSummary Statistical Analysis ")
-print("\nFeature ", "\tFrequency ")
+print("\nSUMMARY STATISTICAL ANALYSIS")
+print('-'*50)#just a line to distinguish between all the outputs
+print("SN", "\tFeature ", "\tFrequency ")
 #sort frequent significant features below:
 d = sorted(myfreqsig, key = myfreqsig.get, reverse=True)
+sigcount = 0
 for id in d:
+	sigcount += 1
 	text = myfreqsig[id]
-	print(id + "\t" + str(text))
+	print(str(sigcount) + "\t"+ id + "\t" + str(text))
 print("")
 
