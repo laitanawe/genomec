@@ -1,4 +1,4 @@
-## Genomec is Python v2 and v3 compatible 
+## Genomec is Python v2 and v3 compatible
 import glob
 import errno
 sample_type = "Typhi/Paratyphi"

@@ -1,4 +1,4 @@
-## Genomec is Python v2 and v3 compatible 
+## Genomec is Python v2 and v3 compatible (502) 276-0178: Health Insurance
 import glob
 import errno
 sample_type = "Typhi/Paratyphi"
@@ -56,8 +56,8 @@ for file in files:
 			if exc.errno != errno.EISDIR:
 				raise
 print("\nSUMMARY STATISTICAL ANALYSIS")
-print('-'*50)#just a line to distinguish between all the outputs
 print("SN", "\tFeature ", "\tFrequency ")
+print('-'*50)#just a line to distinguish between all the outputs
 #sort frequent significant features below:
 d = sorted(myfreqsig, key = myfreqsig.get, reverse=True)
 sigcount = 0
