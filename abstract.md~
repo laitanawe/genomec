@@ -11,7 +11,7 @@ Leveraging on Next Generation Sequencing (NGS) datasets allows us the possibilit
 
 
 ## Methods
-Given some NGS datasets from a specific human disease, deciding on which genes or genomic features should be investigated in the disease requires some selection metric. In order to answer this question, in this study, we have developed a novel bioinformatics tool which uses bedgraphs generated from Sequence Alignment Maps for the analysis of genomic features in human disease samples. A use-case for this study is the analysis of phages in Salmonella Typhi samples.
+Given some NGS datasets of some organism e.g bacteria causing a specific human disease, deciding on which genes or genomic features should be investigated in the disease requires some selection metric. In order to answer this question, in this study, we have developed a novel bioinformatics tool which uses bedgraphs generated from Sequence Alignment Maps for the analysis of genomic features in human disease samples. A use-case for this study is the analysis of phages in Salmonella Typhi samples.
 <br><br>
 We developed a bioinformatics tool for the statistical analysis of genomic features across regions of interest in human disease samples using public datasets by computing the number of blocks (exons) in each targeted region or Browser Extensible Data (BED) line in the sample.
 
@@ -49,5 +49,5 @@ Of all the 153 phages analyzed, each sample has different significant phages. We
 
 <br><br>
 ## Conclusion
-Our goal is to compare all samples and find out which of the high-coverage genomic features are most frequent. We will then recommend the most common genomic features to investigators for further study.
+Our goal is to compare all samples and find out which of the high-coverage genomic features are the most frequent. We will then recommend the most common genomic features to investigators for further study.
 

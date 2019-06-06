@@ -49,5 +49,5 @@ Of all the 153 phages analyzed, each sample has different significant phages. We
 
 <br><br>
 ## Conclusion
-Our goal is to compare all samples and find out which of the high-coverage genomic features are most frequent. We will then recommend the most common genomic features to investigators for further study.
+Our goal is to compare all samples and find out which of the high-coverage phages or genomic features are the most frequent. We will then recommend the most common phages or genomic features to investigators for further study.
 
